@@ -1,0 +1,37 @@
+body {
+  background-color: skyblue;
+  font-family: cursive;
+}
+img{
+  width:150px;
+  height: 150px;
+  border-radius: 70%;
+}
+button{
+  background-color: goldenrod;
+  color: navy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: groove navy 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 30px;
+}
+button:hover{
+  background-color: aliceblue;
+  color: rgb(151, 8, 8);
+}
+.container{
+  background-color: rgb(13, 13, 53);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+li{
+  font-size: 35px;
+  color: wheat;
+}
+.container:hover{
+  background-color: aquamarine;
+}
